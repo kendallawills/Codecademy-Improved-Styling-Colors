@@ -4,3 +4,38 @@ body {
     height: 100%;
     margin: 0;
 }
+
+.wrapper {
+    max-width: 75vw;
+    /* VW = Viewport Width */
+    position: relative;
+    margin: auto;
+    padding: 0;
+}
+
+.midground,
+.foreground {
+    width: 35vw;
+    height: 59vw;
+    /* VH = Viewport Height */
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15vh 0 0 15vw;
+    padding: 0;
+}
+
+/* BODY */
+
+body {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+.midground {
+    background-color: hsla(225, 100%, 25%, 0.4);
+}
+
+.foreground {
+    background-color: hsla(325, 50%, 50%, 0.6);
+}
